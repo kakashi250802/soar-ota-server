@@ -1,0 +1,12 @@
+{
+  "app_id": "dev.soar.demo",
+  "channel": "production",
+  "version": 2,
+  "min_host_ver": 29,
+  "kernels": [],
+  "bundle_sha256": "24ea6843d85086db09a17e976bf618eb4aa14a83c9862674c93d9ad15e904f71",
+  "bundle_size": 682,
+  "rollout_percent": 100,
+  "apply_mode": "immediate",
+  "signature": "b413b493eb6fd53ef711d5a162593cf011cf7c1a4dc103308c74f912cea0c140fd95afade24f1aefd039393af0ff892dde35f5b3c3b9e4573555040f954e8602"
+}

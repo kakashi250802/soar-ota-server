@@ -1,0 +1,16 @@
+{
+  "app_id": "dev.soar.demo",
+  "channel": "production",
+  "version": 1,
+  "min_host_ver": 29,
+  "kernels": [
+    "storage",
+    "network",
+    "camera"
+  ],
+  "bundle_sha256": "3a5255f4dd6f7377ed6b981b99a04c042765117f2f414b4e885c1c9009818a64",
+  "bundle_size": 685,
+  "rollout_percent": 100,
+  "apply_mode": "on_resume",
+  "signature": "f8a4d410a0abfd7938f90e4b33f44689c812da6efcc5f4109cee2203d82e374885ebd42d76c86372b9224aed188cff0ec1afe1dfcca20a1b9c90be3f90c43e03"
+}

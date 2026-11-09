@@ -1,0 +1,142 @@
+{
+  "buckets": [
+    {
+      "app_id": "dev.soar.demo",
+      "bucket": 6,
+      "device_id": "device-1",
+      "version": "1"
+    },
+    {
+      "app_id": "dev.soar.demo",
+      "bucket": 85,
+      "device_id": "device-1",
+      "version": "2"
+    },
+    {
+      "app_id": "dev.soar.demo",
+      "bucket": 18,
+      "device_id": "device-2",
+      "version": "1"
+    },
+    {
+      "app_id": "dev.soar.demo",
+      "bucket": 95,
+      "device_id": "00000000-0000-4000-8000-000000000000",
+      "version": "3"
+    },
+    {
+      "app_id": "a",
+      "bucket": 34,
+      "device_id": "",
+      "version": "0"
+    },
+    {
+      "app_id": "ứng.dụng",
+      "bucket": 94,
+      "device_id": "thiết-bị-ốc",
+      "version": "18446744073709551615"
+    },
+    {
+      "app_id": "dev.soar.demo",
+      "bucket": 64,
+      "device_id": "abc",
+      "version": "4294967296"
+    },
+    {
+      "app_id": "other.app",
+      "bucket": 34,
+      "device_id": "device-1",
+      "version": "1"
+    },
+    {
+      "app_id": "a",
+      "bucket": 63,
+      "device_id": "d",
+      "version": "9223372036854775808"
+    }
+  ],
+  "manifests": [
+    {
+      "canonical_hex": "736f61722d6f74612d6d616e69666573742d7631000000000d6465762e736f61722e64656d6f0000000a70726f64756374696f6e00000000000000050000001d000000030000000663616d657261000000076e6574776f726b0000000773746f726167650000004030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030000000000000007b1901",
+      "manifest": {
+        "app_id": "dev.soar.demo",
+        "apply_mode": "on_resume",
+        "bundle_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "bundle_size": 123,
+        "channel": "production",
+        "kernels": [
+          "storage",
+          "network",
+          "camera",
+          "network"
+        ],
+        "min_host_ver": 29,
+        "rollout_percent": 25,
+        "signature": "275b64ed57d6166ee7e23d466add0604bbd9cc0a25f19fc60624d548d32e4fd66cc69f4c4f00bff9f9fd1dbf622bedd653f0ee67b8d10c8dff7315abf250ba04",
+        "version": 5
+      },
+      "size_str": "123",
+      "version_str": "5"
+    },
+    {
+      "canonical_hex": "736f61722d6f74612d6d616e69666573742d7631000000000ce1bba96e672e64e1bba56e6700000008737461672f696e677fffffffffffffff0000000000000000000000406162616261626162616261626162616261626162616261626162616261626162616261626162616261626162616261626162616261626162616261626162616200000000000000000000",
+      "manifest": {
+        "app_id": "ứng.dụng",
+        "apply_mode": "next_launch",
+        "bundle_sha256": "abababababababababababababababababababababababababababababababab",
+        "bundle_size": 0,
+        "channel": "stag/ing",
+        "kernels": [],
+        "min_host_ver": 0,
+        "rollout_percent": 0,
+        "signature": "44acd6ccb41720bab32d12df4df425471f1e03feebfa97799c32404f52596116d880cb44fba5ec2db95b2c62092fcf5c0579996ce8cf8ac9f5fa25c24dfb1f0f",
+        "version": 9223372036854775807
+      },
+      "size_str": "0",
+      "version_str": "9223372036854775807"
+    },
+    {
+      "canonical_hex": "736f61722d6f74612d6d616e69666573742d7631000000000362696700000003753634ffffffffffffffff0000000700000001000000016b0000004063646364636463646364636463646364636463646364636463646364636463646364636463646364636463646364636463646364636463646364636463646364ffffffffffffffff6301",
+      "manifest": {
+        "app_id": "big",
+        "apply_mode": "on_resume",
+        "bundle_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+        "bundle_size": 18446744073709551615,
+        "channel": "u64",
+        "kernels": [
+          "k"
+        ],
+        "min_host_ver": 7,
+        "rollout_percent": 99,
+        "signature": "7cd064e2d4f884345b9e389098b35b0a6b693b9a43bee807726378d2ca4407ca83d5e1a6c60eb294def0ddac71bba83ad674b1027da7e0b30dd5de3235858807",
+        "version": 18446744073709551615
+      },
+      "size_str": "18446744073709551615",
+      "version_str": "18446744073709551615"
+    },
+    {
+      "canonical_hex": "736f61722d6f74612d6d616e69666573742d763100000000016100000001620000000000000001ffffffff00000004000000015a0000000161000000017a00000002c3a900000040666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667fffffffffffffff6402",
+      "manifest": {
+        "app_id": "a",
+        "apply_mode": "immediate",
+        "bundle_sha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "bundle_size": 9223372036854775807,
+        "channel": "b",
+        "kernels": [
+          "z",
+          "Z",
+          "a",
+          "é"
+        ],
+        "min_host_ver": 4294967295,
+        "rollout_percent": 100,
+        "signature": "91bf3b3f32e5fd460bceb7cdaf67cbbd7006dd3177c055a2a30c06026c5b1da2719dc8da8f40141b2c3e3df48b5e72e71509be4906530842147f279855971d09",
+        "version": 1
+      },
+      "size_str": "9223372036854775807",
+      "version_str": "1"
+    }
+  ],
+  "public_key_hex": "ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c",
+  "signing_seed_hex": "0707070707070707070707070707070707070707070707070707070707070707"
+}

@@ -1,0 +1,19 @@
+# Small programs that call the real Soar engine crate. They are not part of the PHP app.
+#
+#   cargo run --release --bin vectors > ../../tests/fixtures/rust-vectors.json
+#   cargo run --release --bin client -- http://localhost:8080 dev.soar.demo production ../../tests/fixtures/soar-signing.pub device-1
+#
+# The path below assumes the Soar engine repository is checked out next to this one.
+[package]
+name = "rust-check"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+soar-ota = { path = "../../../soar/crates/soar-ota", features = ["http"] }
+ed25519-dalek = "2"
+serde_json = "1"
+
+# Keep this crate out of any parent workspace.
+[workspace]

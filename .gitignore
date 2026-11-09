@@ -1,0 +1,12 @@
+# Keys and secrets. The demo key in fixtures/ is a throwaway made by `soar keygen`, committed on purpose.
+*.key
+*.pem
+.env
+.env.*
+!fixtures/soar-signing.key
+
+# Output of the minimal example and the Rust tools
+examples/minimal-php/data/
+tools/rust-check/target/
+
+.DS_Store
